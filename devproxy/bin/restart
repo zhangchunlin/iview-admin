@@ -1,0 +1,3 @@
+#!/bin/bash -ex
+openresty -p . -c conf/nginx.conf -s stop
+openresty -p . -c conf/nginx.conf

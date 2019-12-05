@@ -1,0 +1,2 @@
+#!/bin/bash -ex
+nginx -p . -g "error_log logs/error.log;" -c conf/nginx.conf -s stop
