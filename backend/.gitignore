@@ -1,0 +1,9 @@
+*.pyc
+*.bak
+local_settings.ini
+build
+dist
+*.egg-info
+.idea
+*.db
+sessions
